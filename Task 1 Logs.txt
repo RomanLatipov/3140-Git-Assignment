@@ -1,0 +1,80 @@
+Roman@DESKTOP-SK6IDUM MINGW64 ~
+$ cd desktop/Assignment\ 2
+
+Roman@DESKTOP-SK6IDUM MINGW64 ~/desktop/Assignment 2
+$ mkdir
+mkdir: missing operand
+Try 'mkdir --help' for more information.
+
+Roman@DESKTOP-SK6IDUM MINGW64 ~/desktop/Assignment 2
+$ mkdir Task\ 1
+
+Roman@DESKTOP-SK6IDUM MINGW64 ~/desktop/Assignment 2
+$ cd Task\ 1
+
+Roman@DESKTOP-SK6IDUM MINGW64 ~/desktop/Assignment 2/Task 1
+$ git init
+Initialized empty Git repository in C:/Users/Roman/Desktop/Assignment 2/Task 1/.git/
+
+Roman@DESKTOP-SK6IDUM MINGW64 ~/desktop/Assignment 2/Task 1 (master)
+$ touch readme.md
+
+Roman@DESKTOP-SK6IDUM MINGW64 ~/desktop/Assignment 2/Task 1 (master)
+$ nano readme.md
+
+Roman@DESKTOP-SK6IDUM MINGW64 ~/desktop/Assignment 2/Task 1 (master)
+$ touch task1.txt
+
+Roman@DESKTOP-SK6IDUM MINGW64 ~/desktop/Assignment 2/Task 1 (master)
+$ nano task1.txt
+
+Roman@DESKTOP-SK6IDUM MINGW64 ~/desktop/Assignment 2/Task 1 (master)
+$ git add readme.md
+warning: LF will be replaced by CRLF in readme.md.
+The file will have its original line endings in your working directory
+
+Roman@DESKTOP-SK6IDUM MINGW64 ~/desktop/Assignment 2/Task 1 (master)
+$ git add task1.txt
+warning: LF will be replaced by CRLF in task1.txt.
+The file will have its original line endings in your working directory
+
+Roman@DESKTOP-SK6IDUM MINGW64 ~/desktop/Assignment 2/Task 1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   readme.md
+        new file:   task1.txt
+
+
+Roman@DESKTOP-SK6IDUM MINGW64 ~/desktop/Assignment 2/Task 1 (master)
+$ git commit -m "This is a commit for assignment 2 task 1"
+[master (root-commit) 1b2e4ab] This is a commit for assignment 2 task 1
+ 2 files changed, 2 insertions(+)
+ create mode 100644 readme.md
+ create mode 100644 task1.txt
+
+Roman@DESKTOP-SK6IDUM MINGW64 ~/desktop/Assignment 2/Task 1 (master)
+$ git push origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Roman@DESKTOP-SK6IDUM MINGW64 ~/desktop/Assignment 2/Task 1 (master)
+$ git remote add gitPush https://github.com/RomanLatipov/3140-Git-Assignment.git
+
+Roman@DESKTOP-SK6IDUM MINGW64 ~/desktop/Assignment 2/Task 1 (master)
+$ git push gitPush master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 368 bytes | 368.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/RomanLatipov/3140-Git-Assignment.git
+ * [new branch]      master -> master
