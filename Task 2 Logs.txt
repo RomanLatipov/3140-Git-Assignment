@@ -1,0 +1,28 @@
+Roman@DESKTOP-SK6IDUM MINGW64 ~
+$ cd desktop/Assignment\ 2
+
+Roman@DESKTOP-SK6IDUM MINGW64 ~/desktop/Assignment 2
+$ mkdir Task\ 2
+
+Roman@DESKTOP-SK6IDUM MINGW64 ~/desktop/Assignment 2
+$ cd Task\ 2
+
+Roman@DESKTOP-SK6IDUM MINGW64 ~/desktop/Assignment 2/Task 2
+$ svnadmin create --fs-type fsfs MyNewRepository
+
+Roman@DESKTOP-SK6IDUM MINGW64 ~/desktop/Assignment 2/Task 2
+$ cd MyNewRepository
+
+Roman@DESKTOP-SK6IDUM MINGW64 ~/desktop/Assignment 2/Task 2/MyNewRepository
+$ nano svnText.txt
+
+Roman@DESKTOP-SK6IDUM MINGW64 ~/desktop/Assignment 2/Task 2/MyNewRepository
+$ nano svnText.txt
+
+Roman@DESKTOP-SK6IDUM MINGW64 ~/desktop/Assignment 2/Task 2/svnRepo
+$ svn add svnText.txt
+svn: E155007: 'C:\Users\Roman\desktop\Assignment 2\Task 2\svnRepo' is not a working copy
+
+Roman@DESKTOP-SK6IDUM MINGW64 ~/desktop/Assignment 2/Task 2/svnRepo
+$ svn commit -m "Commit attempt"
+svn: E155007: 'C:\Users\Roman\desktop\Assignment 2\Task 2\svnRepo' is not a working copy
