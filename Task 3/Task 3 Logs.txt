@@ -1,0 +1,9 @@
+Roman@DESKTOP-SK6IDUM MINGW64 ~
+$ cd desktop/Assignment\ 2/Task\ 3
+
+Roman@DESKTOP-SK6IDUM MINGW64 ~/desktop/Assignment 2/Task 3
+$ git init
+Initialized empty Git repository in C:/Users/Roman/Desktop/Assignment 2/Task 3/.git/
+
+Roman@DESKTOP-SK6IDUM MINGW64 ~/desktop/Assignment 2/Task 3 (master)
+$ awk -F',' '{$1=""; print}' movies.csv | awk 'NF{--NF};1' | tr -d '"' | awk '{print $NF,$0}' | sort -n | awk '{$1=""}1' > outputfile.txt
